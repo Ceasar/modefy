@@ -1,0 +1,56 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 8, ../sass/screen.sass */
+#chooser {
+  border: gray 1px solid;
+  border-radius: 5px;
+  width: 800px;
+}
+
+/* line 13, ../sass/screen.sass */
+#items {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  width: 100%;
+}
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#items li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+/* line 48, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#items li:first-child, #items li.first {
+  padding-left: 0;
+}
+/* line 49, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#items li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#items li.last {
+  padding-right: 0;
+}
+/* line 17, ../sass/screen.sass */
+#items li {
+  width: 33%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 22, ../sass/screen.sass */
+.item {
+  border: gray 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+}

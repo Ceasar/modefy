@@ -1,0 +1,25 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/utilities/lists/horizontal-list"
+
+#chooser
+    border: gray 1px solid
+    border-radius: 5px
+    width: 800px
+
+#items
+    +horizontal-list
+    width: 100%
+
+    li
+        width: 33%
+        margin: 0
+        padding: 0
+
+.item
+    border: gray 1px solid
+    border-radius: 5px
+    padding: 10px
