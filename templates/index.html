@@ -6,19 +6,25 @@
     <ul id="items">
         <li>
             <div class="item">
-                <img src="">
+                <div class="image">
+                    <img src="http://media-cache-ec7.pinterest.com/550/da/d7/99/dad7997dd3aeb0e580d83cdf09eebd21.jpg">
+                </div>
                 <p>Item 1</p>
             </div>
         </li>
         <li>
             <div class="item">
-                <img src="">
+                <div class="image">
+                    <img src="http://media-cache-ec7.pinterest.com/550/5f/ab/69/5fab6940b902e47ef741abd4fc794b39.jpg">
+                </div>
                 <p>Item 2</p>
             </div>
         </li>
         <li>
             <div class="item">
-                <img src="">
+                <div class="image">
+                    <img src="http://media-cache-ec3.pinterest.com/550/88/05/8f/88058fd97b7a3b2b69e098a29627c72b.jpg">
+                </div>
                 <p>Item 3</p>
             </div>
         </li>
@@ -26,5 +32,11 @@
     <!-- need to get email here -->
     <div class="facebook">
     </div>
+    <button class="btn btn-primary">Submit</button>
 </div>
+{% endblock %}
+
+{% block js %}
+{{ super() }}
+<script src="static/js/index.js"></script>
 {% endblock %}

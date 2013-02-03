@@ -3,13 +3,21 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 8, ../sass/screen.sass */
+body {
+  background: #f7f5f5 url(http://passets-ec.pinterest.com/images/paper.jpg) repeat;
+}
+
+/* line 11, ../sass/screen.sass */
 #chooser {
+  background-color: white;
+  margin: 20px;
   border: gray 1px solid;
   border-radius: 5px;
   width: 800px;
+  padding: 20px;
 }
 
-/* line 13, ../sass/screen.sass */
+/* line 19, ../sass/screen.sass */
 #items {
   margin: 0;
   padding: 0;
@@ -41,16 +49,42 @@
 #items li.last {
   padding-right: 0;
 }
-/* line 17, ../sass/screen.sass */
+/* line 23, ../sass/screen.sass */
 #items li {
+  height: 350px;
   width: 33%;
   margin: 0;
   padding: 0;
 }
+/* line 29, ../sass/screen.sass */
+#items li img {
+  background-color: gray;
+  max-width: 100%;
+  max-height: 75%;
+  display: block;
+  margin: 0 auto;
+}
 
-/* line 22, ../sass/screen.sass */
+/* line 36, ../sass/screen.sass */
 .item {
   border: gray 1px solid;
   border-radius: 5px;
+  margin: 5px;
   padding: 10px;
+}
+/* line 42, ../sass/screen.sass */
+.item:hover {
+  border-color: #0088cc;
+  box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+  cursor: pointer;
+}
+
+/* line 47, ../sass/screen.sass */
+.selected {
+  border-color: #00cc88;
+}
+
+/* line 50, ../sass/screen.sass */
+.image {
+  background-color: #f2f0f0;
 }
